@@ -1,0 +1,112 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding:0;
+    background-color: white;
+    color: #ffffff;
+    overflow: hidden;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.sidebar{
+    width:340px;
+    background-color: green;
+}
+.navbar{
+    height: 150px;
+    background-color: #121212;
+    border-radius: 1rem;
+    padding: 0.5rem 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin: 0.25rem 0.5rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav-logo{
+    line-height: 1.5rem;
+    padding: 0.5rem;
+}
+.nav-option{
+    line-height: 1.5rem;
+    padding: 0.5rem;
+}
+.nav-option i{
+    font-size: 1.5rem;
+}
+.nav-option a{
+    font-size: 1rem;
+    padding-left: 1rem;
+    opacity: 0.7;
+}
+.nav-option a:hover{
+    opacity: 1;
+}
+.library{
+    height: 490px;
+    background-color: #121212;
+    border-radius: 1rem;
+    margin: 0.25rem 0.5rem;
+}
+.library-option{
+    height: 2.5rem;
+    padding: 0.5rem 1rem;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.library-option i{
+    font-size: 1.5rem;
+    opacity: 0.7;
+}
+.library-option a{
+    font-size: 1rem;
+    padding-right: 7rem;
+    opacity: 0.7;
+}
+.library-option i:hover{
+    opacity: 1;
+}
+.library-option a:hover{
+    opacity: 1;
+}
+.library-card{
+    height: 130px;
+    background-color: #242424;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+.main-content{
+    flex: 1;
+    background-color: #121212;
+    border-radius: 1rem;
+    overflow: auto;
+}
+.music-player{
+    height:72px;
+    width: 100vw;
+    background-color: #000000;
+    position: fixed;
+    bottom: 0px;
+} 
