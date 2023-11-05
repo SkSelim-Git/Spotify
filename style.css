@@ -108,6 +108,7 @@ a{
 }
 .badge:hover{
     opacity: 0.9;
+    cursor: pointer;
 }
 .sticky-navbar{
     position: sticky;
@@ -289,11 +290,46 @@ a{
     background-color: #1bd760;
     margin-top: -6px;
 }
-
+/* Add design of the project */
 .design{
-    opacity: 0.9;
+    opacity: 0.95;
+    transition: all 0.3s ease-in 0.001s;
 }
 .design:hover{
     opacity: 1;
     cursor: pointer;
+    transform: scale(1.02);
+}
+i{
+    opacity: 0.95;
+    transition: all 0.2s ease-in 0.001s;
+}
+i:hover{
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.3);
+}
+img{
+    opacity: 0.95;
+    transition: all 0.2s ease-in 0.001s;
+}
+img:hover{
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+p{
+    opacity: 0.95;
+    transition: all 0.2s ease-in 0.001s;
+}
+p:hover{
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+h2{
+    opacity: 1;
+}
+h2:hover{
+    opacity: 0.9;
 }
