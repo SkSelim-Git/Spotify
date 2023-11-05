@@ -96,7 +96,7 @@ a{
     border-top-right-radius: 1rem;
     overflow: auto;
     margin: 0.25rem 0.5rem 0 0;
-    height: 665px;
+    height: 690px;
 }
 .badge{
     background-color: #ffffff;
@@ -105,10 +105,12 @@ a{
     border-radius: 100px;
     padding: 0.25rem 1rem;
     font-size: 1rem;
+    transition: all 0.2s ease-in 0.01s;
 }
 .badge:hover{
     opacity: 0.9;
     cursor: pointer;
+    transform: scale(1.05);
 }
 .sticky-navbar{
     position: sticky;
@@ -332,4 +334,22 @@ h2{
 }
 h2:hover{
     opacity: 0.9;
+}
+.nav-logo img{
+    opacity: 0.2;
+    animation: logo 2.5s ease-in 0.01s infinite alternate-reverse;
+}
+@keyframes logo{
+    0%{
+        opacity: 0.4;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.panel{
+    transition: all 0.2s ease-in 0.001s;
+}
+.panel:hover{
+    transform: scale(1.01);
 }
