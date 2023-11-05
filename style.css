@@ -170,7 +170,41 @@ a{
 }  
 .music-album{
     width: 25%;
-    background-color: aqua;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.album-card{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+.album-card img{
+    height: 90%;
+    width: 50%;
+    margin-right: 0.5rem;
+}
+.album-info p {
+    padding: 0;
+    margin: 0;
+}
+.album-tittle{
+    font-size: 1rem;
+}
+.album-tittle-info{
+    font-size: 0.7rem;
+    opacity: 0.7;
+}
+.album-icon{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 2rem;
 }
 .music-playbutton{
     width: 50%;
@@ -218,5 +252,28 @@ a{
 }
 .music-controls{
     width: 25%;
-    background-color: aquamarine;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 } 
+.sound-bar{
+    width: 40%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.sound-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    height: 0.2rem;
+    border-radius: 100px;
+}
+.sound-bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: #1bd760;
+    margin-top: -6px;
+}
